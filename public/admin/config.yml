@@ -1,0 +1,249 @@
+backend:
+  name: git-gateway
+  branch: main
+local_backend: true
+publish_mode: simple
+site_url: /
+display_url: /
+logo_url: /favicon.svg
+media_folder: public/uploads
+public_folder: /uploads
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: settings
+    label: 网站设置
+    files:
+      - name: settings
+        label: 网站设置
+        file: content/settings.md
+        fields:
+          - { label: 首页小字, name: heroKicker, widget: string }
+          - { label: 首页标题 1, name: heroLine1, widget: string }
+          - { label: 首页标题 2, name: heroLine2, widget: string }
+          - { label: 首页标题 3, name: heroLine3, widget: string }
+          - { label: 首页中文副标题, name: subtitleZh, widget: text }
+          - { label: 首页英文副标题, name: subtitleEn, widget: string }
+          - { label: Hero 图片, name: heroImage, widget: image }
+          - { label: Hero 视频（可空，直接拖 mp4 上来） , name: heroVideo, widget: file, required: false, media_folder: public/uploads/videos, public_folder: /uploads/videos, media_library: { allow_multiple: false } }
+          - { label: Email, name: email, widget: string }
+          - { label: 电话, name: phone, widget: string, required: false, hint: 填手机号，前台可点击拨打 }
+          - { label: 微信号, name: wechat, widget: string, required: false, hint: 前台点击复制，不会跳转 }
+          - { label: 小红书, name: xiaohongshu, widget: string, required: false }
+          - { label: 页脚中文, name: footerZh, widget: string }
+          - { label: 页脚英文, name: footerEn, widget: string }
+          - { label: SEO 标题, name: seoTitle, widget: string }
+          - { label: SEO 描述, name: seoDescription, widget: text }
+          - { label: Accent Color, name: accent, widget: string }
+
+  - name: home
+    label: 首页文案
+    files:
+      - name: home
+        label: 首页文案
+        file: content/home.md
+        fields:
+          - { label: 中间大句中文, name: statementZh, widget: string }
+          - { label: 中间大句英文, name: statementEn, widget: string }
+          - { label: Hero 滚动中文, name: scrollZh, widget: string }
+          - { label: Hero 滚动英文, name: scrollEn, widget: string }
+          - { label: 精选编号, name: selectedNumber, widget: string }
+          - { label: 精选中文标题, name: selectedZh, widget: string }
+          - { label: 精选英文标题, name: selectedEn, widget: string }
+          - { label: 精选更多中文, name: selectedMoreZh, widget: string }
+          - { label: 精选更多英文, name: selectedMoreEn, widget: string }
+          - { label: 关于预览中文标题, name: aboutTitleZh, widget: string }
+          - { label: 关于预览英文标题, name: aboutTitleEn, widget: string }
+          - { label: 关于更多中文, name: aboutMoreZh, widget: string }
+          - { label: 关于更多英文, name: aboutMoreEn, widget: string }
+          - { label: 片刻中文标题, name: momentsTitleZh, widget: string }
+          - { label: 片刻英文标题, name: momentsTitleEn, widget: string }
+          - { label: 片刻备注, name: momentsNote, widget: string, required: false }
+          - { label: 片刻更多中文, name: momentsMoreZh, widget: string }
+          - { label: 片刻更多英文, name: momentsMoreEn, widget: string }
+          - { label: 联系中文标题, name: contactTitleZh, widget: string }
+          - { label: 联系英文标题, name: contactTitleEn, widget: string }
+          - label: 首页 6 个分类
+            name: categories
+            widget: list
+            hint: 顺序即首页从上到下顺序，id 决定取哪些作品，不要改 id，想改名只改中英文
+            fields:
+              - label: 分类 ID（勿改）
+                name: id
+                widget: select
+                options:
+                  - { label: 镜头之前, value: on-camera }
+                  - { label: 赛场现场, value: sports }
+                  - { label: 故事之间, value: stories }
+                  - { label: 创作现场, value: creative }
+                  - { label: 舞台与现场, value: stage }
+                  - { label: 内容与编辑, value: editorial }
+              - { label: 中文名, name: zh, widget: string }
+              - { label: 英文名, name: en, widget: string }
+              - { label: 编号, name: number, widget: string }
+              - { label: 备注一句话, name: noteZh, widget: string }
+              - { label: 更多中文, name: moreZh, widget: string }
+              - { label: 更多英文, name: moreEn, widget: string }
+
+  - name: about
+    label: 关于我
+    files:
+      - name: about
+        label: 关于我
+        file: content/about.md
+        fields:
+          - { label: 中文简介, name: statementZh, widget: text }
+          - { label: 英文简介, name: statementEn, widget: text, required: false }
+          - { label: 工作照片, name: photo, widget: image, required: false, media_folder: public/uploads/about, public_folder: /uploads/about }
+          - { label: 表达, name: expression, widget: text, required: false }
+          - { label: 现场, name: field, widget: text, required: false }
+          - { label: 创作, name: making, widget: text, required: false }
+          - { label: 教育背景, name: education, widget: string, required: false }
+          - label: 数字
+            name: stats
+            widget: list
+            required: false
+            fields:
+              - { label: 数值, name: value, widget: string }
+              - { label: 中文, name: label, widget: string }
+              - { label: 英文, name: labelEn, widget: string, required: false }
+          - { label: 正文, name: body, widget: markdown, required: false }
+
+  - name: projects
+    label: 作品
+    folder: content/projects
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: md
+    format: yaml-frontmatter
+    preview_path: work/{{slug}}
+    media_folder: public/uploads/projects
+    public_folder: /uploads/projects
+    sortable_fields: ["featuredOrder", "year", "title", "commit_date"]
+    fields:
+      - { label: 作品名称, name: title, widget: string }
+      - { label: English Title, name: titleEn, widget: string, required: false }
+      - { label: Slug, name: slug, widget: string, hint: 英文短横线，例如 triathlon }
+      - { label: 年份, name: year, widget: number }
+      - { label: 日期, name: date, widget: datetime, required: false, date_format: YYYY-MM-DD, time_format: false }
+      - label: 一级分类
+        name: primaryCategory
+        widget: select
+        options:
+          - { label: 镜头之前, value: on-camera }
+          - { label: 赛场现场, value: sports }
+          - { label: 故事之间, value: stories }
+          - { label: 创作现场, value: creative }
+          - { label: 舞台与现场, value: stage }
+          - { label: 内容与编辑, value: editorial }
+      - label: 相关分类
+        name: relatedCategories
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - { label: 镜头之前, value: on-camera }
+          - { label: 赛场现场, value: sports }
+          - { label: 故事之间, value: stories }
+          - { label: 创作现场, value: creative }
+          - { label: 舞台与现场, value: stage }
+          - { label: 内容与编辑, value: editorial }
+      - label: 角色
+        name: roles
+        widget: list
+        fields:
+          - { label: 中文, name: zh, widget: string }
+          - { label: 英文, name: en, widget: string, required: false }
+      - { label: 一句话简介, name: summary, widget: text }
+      - { label: 封面, name: cover, widget: image }
+      - { label: Hero, name: hero, widget: image, required: false }
+      - label: 视频
+        name: video
+        widget: object
+        required: false
+        collapsed: false
+        hint: 二选一：要么拖一个 mp4 上来，要么填 B站/YouTube 链接
+        fields:
+          - label: 来源
+            name: provider
+            widget: select
+            options: [file, youtube, bilibili]
+            default: file
+          - label: 直接拖视频文件上来（mp4 / mov / webm）
+            name: file
+            widget: file
+            required: false
+            hint: 从电脑里拖进来就行，会存到 uploads/projects
+            media_folder: public/uploads/projects
+            public_folder: /uploads/projects
+            media_library: { allow_multiple: false }
+          - { label: 或者填 B站 / YouTube 链接, name: url, widget: string, required: false }
+      - label: Gallery
+        name: gallery
+        widget: list
+        required: false
+        fields:
+          - { label: 图片, name: image, widget: image }
+          - { label: 说明, name: caption, widget: string, required: false }
+          - label: 排版
+            name: layout
+            widget: select
+            options:
+              - { label: 全宽, value: full }
+              - { label: 更宽, value: wide }
+              - { label: 半宽, value: half }
+              - { label: 竖图, value: portrait }
+      - { label: 创作手记, name: behind, widget: text, required: false }
+      - { label: Credits, name: credits, widget: string, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: 是否精选, name: featured, widget: boolean, default: false }
+      - { label: 精选排序, name: featuredOrder, widget: number, default: 99 }
+      - { label: 首页分类排序, name: categoryOrder, widget: number, default: 99 }
+      - { label: 是否公开, name: published, widget: boolean, default: true }
+      - label: 精选版式
+        name: featuredLayout
+        widget: select
+        required: false
+        options: [large, portrait, full, offset, text]
+      - { label: SEO 标题, name: seoTitle, widget: string, required: false }
+      - { label: SEO 描述, name: seoDescription, widget: text, required: false }
+      - { label: 作品介绍, name: body, widget: markdown }
+
+  - name: moments
+    label: 片刻
+    folder: content/moments
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: md
+    format: yaml-frontmatter
+    media_folder: public/uploads/moments
+    public_folder: /uploads/moments
+    fields:
+      - { label: 图片, name: image, widget: image }
+      - { label: 日期, name: date, widget: string }
+      - { label: 地点, name: location, widget: string, required: false }
+      - { label: 一句话, name: caption, widget: string, required: false }
+      - { label: 排序, name: order, widget: number, default: 99 }
+      - { label: 是否显示, name: published, widget: boolean, default: true }
+
+  - name: milestones
+    label: 一些节点
+    folder: content/milestones
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: md
+    format: yaml-frontmatter
+    fields:
+      - { label: 年份, name: year, widget: string }
+      - { label: 中文标题, name: title, widget: string }
+      - { label: 英文标题, name: titleEn, widget: string, required: false }
+      - { label: 类型, name: type, widget: string, required: false }
+      - { label: 排序, name: order, widget: number, default: 99 }
+      - { label: 描述, name: body, widget: markdown, required: false }
+      - { label: 描述（短）, name: description, widget: text, required: false }

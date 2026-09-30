@@ -1,0 +1,19 @@
+.page {
+  min-height: 70vh;
+  display: grid;
+  place-content: center;
+  padding: var(--space-xl);
+}
+
+.title {
+  font-size: var(--type-section);
+  line-height: 0.9;
+}
+
+.en {
+  margin: 0.8rem 0 var(--space-md);
+  color: var(--muted);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: var(--type-meta);
+}

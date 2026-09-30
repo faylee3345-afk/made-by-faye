@@ -1,0 +1,28 @@
+.link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  margin-top: var(--space-md);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.15rem;
+}
+
+.link:hover {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+
+.zh {
+  font-size: 1rem;
+}
+
+.en {
+  font-size: var(--type-meta);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.arrow {
+  color: var(--accent);
+}

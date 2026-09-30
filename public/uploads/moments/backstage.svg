@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" role="img" aria-label="Backstage">
+  <rect width="1100" height="1400" fill="#1c1c1c"/>
+  <rect x="0" y="868" width="1100" height="532" fill="#f4f1ea" opacity="0.06"/>
+  <rect x="88" y="168" width="605" height="672" fill="#f4f1ea" opacity="0.05"/>
+  <circle cx="0" cy="0" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="256.66666666666663" cy="910" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="513.3333333333333" cy="420" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="770" cy="1330" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="1026.6666666666665" cy="840" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="183.33333333333331" cy="350" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="440" cy="1260" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="696.6666666666666" cy="770" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="953.3333333333333" cy="280" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="110" cy="1190" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="366.66666666666663" cy="700" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="623.3333333333333" cy="210" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="880" cy="1120" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="36.666666666666664" cy="630" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="293.3333333333333" cy="140" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="550" cy="1050" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="806.6666666666666" cy="560" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1063.3333333333333" cy="70" r="10" fill="#f4f1ea" opacity="0.04"/>
+  <rect x="77.00000000000001" y="140" width="10" height="10" fill="#c6452e"/>
+  <text x="77.00000000000001" y="126" fill="#f4f1ea" font-size="39" letter-spacing="6" font-family="Inter, Helvetica, sans-serif">FAYE</text>
+  <text x="77.00000000000001" y="1232" fill="#f4f1ea" font-size="77" font-family="Georgia, serif">Backstage</text>
+  <text x="77.00000000000001" y="1302" fill="#c6452e" font-size="31" letter-spacing="4" font-family="Inter, Helvetica, sans-serif">PLACEHOLDER · REPLACE IN CMS</text>
+</svg>

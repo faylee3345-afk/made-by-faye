@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-label="Ting Hai">
+  <rect width="1600" height="1100" fill="#2a3338"/>
+  <rect x="0" y="682" width="1600" height="418" fill="#f4f1ea" opacity="0.06"/>
+  <rect x="128" y="132" width="880.0000000000001" height="528" fill="#f4f1ea" opacity="0.05"/>
+  <circle cx="0" cy="0" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="373.33333333333337" cy="715" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="746.6666666666667" cy="330" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="1120" cy="1045" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="1493.3333333333335" cy="660" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="266.6666666666667" cy="275" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="640" cy="990" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1013.3333333333334" cy="605" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="1386.6666666666667" cy="220" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="160" cy="935" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="533.3333333333334" cy="550" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="906.6666666666667" cy="165" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1280" cy="880" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="53.333333333333336" cy="495" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="426.6666666666667" cy="110" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="800" cy="825" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="1173.3333333333335" cy="440" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1546.6666666666667" cy="55" r="10" fill="#f4f1ea" opacity="0.04"/>
+  <rect x="112.00000000000001" y="110" width="10" height="10" fill="#c6452e"/>
+  <text x="112.00000000000001" y="99" fill="#f4f1ea" font-size="31" letter-spacing="6" font-family="Inter, Helvetica, sans-serif">FAYE</text>
+  <text x="112.00000000000001" y="968" fill="#f4f1ea" font-size="61" font-family="Georgia, serif">Ting Hai</text>
+  <text x="112.00000000000001" y="1023" fill="#c6452e" font-size="24" letter-spacing="4" font-family="Inter, Helvetica, sans-serif">PLACEHOLDER · REPLACE IN CMS</text>
+</svg>

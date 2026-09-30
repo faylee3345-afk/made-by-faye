@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Hangzhou">
+  <rect width="1600" height="1000" fill="#4a3b2c"/>
+  <rect x="0" y="620" width="1600" height="380" fill="#f4f1ea" opacity="0.06"/>
+  <rect x="128" y="120" width="880.0000000000001" height="480" fill="#f4f1ea" opacity="0.05"/>
+  <circle cx="0" cy="0" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="373.33333333333337" cy="650" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="746.6666666666667" cy="300" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="1120" cy="950" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="1493.3333333333335" cy="600" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="266.6666666666667" cy="250" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="640" cy="900" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1013.3333333333334" cy="550" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="1386.6666666666667" cy="200" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="160" cy="850" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="533.3333333333334" cy="500" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="906.6666666666667" cy="150" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1280" cy="800" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="53.333333333333336" cy="450" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="426.6666666666667" cy="100" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="800" cy="750" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="1173.3333333333335" cy="400" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1546.6666666666667" cy="50" r="10" fill="#f4f1ea" opacity="0.04"/>
+  <rect x="112.00000000000001" y="100" width="10" height="10" fill="#c6452e"/>
+  <text x="112.00000000000001" y="90" fill="#f4f1ea" font-size="28" letter-spacing="6" font-family="Inter, Helvetica, sans-serif">FAYE</text>
+  <text x="112.00000000000001" y="880" fill="#f4f1ea" font-size="55" font-family="Georgia, serif">Hangzhou</text>
+  <text x="112.00000000000001" y="930" fill="#c6452e" font-size="22" letter-spacing="4" font-family="Inter, Helvetica, sans-serif">PLACEHOLDER · REPLACE IN CMS</text>
+</svg>

@@ -1,0 +1,38 @@
+.section {
+  padding: var(--space-xl) clamp(1rem, 3vw, 2.5rem) 0;
+}
+
+.sheet {
+  column-count: 3;
+  column-gap: var(--grid-gap);
+}
+
+.item {
+  break-inside: avoid;
+  margin-bottom: var(--grid-gap);
+  display: block;
+}
+
+.item img {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  margin-top: 0.45rem;
+  font-size: var(--type-meta);
+  color: var(--muted);
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 900px) {
+  .sheet {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 620px) {
+  .sheet {
+    column-count: 1;
+  }
+}

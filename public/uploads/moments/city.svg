@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1300" role="img" aria-label="City">
+  <rect width="1000" height="1300" fill="#3b332c"/>
+  <rect x="0" y="806" width="1000" height="494" fill="#f4f1ea" opacity="0.06"/>
+  <rect x="80" y="156" width="550" height="624" fill="#f4f1ea" opacity="0.05"/>
+  <circle cx="0" cy="0" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="233.33333333333334" cy="845" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="466.6666666666667" cy="390" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="700" cy="1235" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="933.3333333333334" cy="780" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="166.66666666666669" cy="325" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="400" cy="1170" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="633.3333333333334" cy="715" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="866.6666666666667" cy="260" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="100" cy="1105" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="333.33333333333337" cy="650" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="566.6666666666667" cy="195" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="800" cy="1040" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="33.333333333333336" cy="585" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="266.6666666666667" cy="130" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="500.00000000000006" cy="975" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="733.3333333333334" cy="520" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="966.6666666666667" cy="65" r="10" fill="#f4f1ea" opacity="0.04"/>
+  <rect x="70" y="130" width="10" height="10" fill="#c6452e"/>
+  <text x="70" y="117" fill="#f4f1ea" font-size="36" letter-spacing="6" font-family="Inter, Helvetica, sans-serif">FAYE</text>
+  <text x="70" y="1144" fill="#f4f1ea" font-size="72" font-family="Georgia, serif">City</text>
+  <text x="70" y="1209" fill="#c6452e" font-size="29" letter-spacing="4" font-family="Inter, Helvetica, sans-serif">PLACEHOLDER · REPLACE IN CMS</text>
+</svg>

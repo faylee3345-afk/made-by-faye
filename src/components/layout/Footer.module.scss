@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: var(--space-lg) clamp(1rem, 3vw, 2.5rem) var(--space-md);
+  border-top: 1px solid var(--border);
+  font-size: var(--type-meta);
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.admin {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    color: var(--ink);
+    border-bottom-color: var(--ink);
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    flex-direction: column;
+  }
+}

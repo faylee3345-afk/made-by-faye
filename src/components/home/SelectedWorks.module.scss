@@ -1,0 +1,55 @@
+.section {
+  padding: var(--space-xl) clamp(1rem, 3vw, 2.5rem) 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: clamp(1.2rem, 3vw, 3rem) var(--grid-gap);
+  align-items: end;
+}
+
+.large {
+  grid-column: 1 / span 8;
+}
+
+.portrait {
+  grid-column: 9 / span 4;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.offsetA {
+  grid-column: 1 / span 6;
+  margin-top: 4rem;
+}
+
+.offsetB {
+  grid-column: 7 / span 5;
+}
+
+.text {
+  grid-column: 3 / span 7;
+}
+
+.more {
+  margin-top: var(--space-lg);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .large,
+  .portrait,
+  .full,
+  .offsetA,
+  .offsetB,
+  .text {
+    grid-column: 1;
+    margin-top: 0;
+  }
+}

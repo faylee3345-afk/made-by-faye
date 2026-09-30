@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Cricket">
+  <rect width="1600" height="900" fill="#31401f"/>
+  <rect x="0" y="558" width="1600" height="342" fill="#f4f1ea" opacity="0.06"/>
+  <rect x="128" y="108" width="880.0000000000001" height="432" fill="#f4f1ea" opacity="0.05"/>
+  <circle cx="0" cy="0" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="373.33333333333337" cy="585" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="746.6666666666667" cy="270" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="1120" cy="855" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="1493.3333333333335" cy="540" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="266.6666666666667" cy="225" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="640" cy="810" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1013.3333333333334" cy="495" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="1386.6666666666667" cy="180" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="160" cy="765" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="533.3333333333334" cy="450" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="906.6666666666667" cy="135" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1280" cy="720" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="53.333333333333336" cy="405" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="426.6666666666667" cy="90" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="800" cy="675" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="1173.3333333333335" cy="360" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1546.6666666666667" cy="45" r="10" fill="#f4f1ea" opacity="0.04"/>
+  <rect x="112.00000000000001" y="90" width="10" height="10" fill="#c6452e"/>
+  <text x="112.00000000000001" y="81" fill="#f4f1ea" font-size="25" letter-spacing="6" font-family="Inter, Helvetica, sans-serif">FAYE</text>
+  <text x="112.00000000000001" y="792" fill="#f4f1ea" font-size="50" font-family="Georgia, serif">Cricket</text>
+  <text x="112.00000000000001" y="837" fill="#c6452e" font-size="20" letter-spacing="4" font-family="Inter, Helvetica, sans-serif">PLACEHOLDER · REPLACE IN CMS</text>
+</svg>

@@ -1,0 +1,27 @@
+.pair {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.zh {
+  display: block;
+}
+
+.en {
+  display: block;
+  font-size: var(--type-meta);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline .en {
+  display: inline;
+  margin-left: 0.45rem;
+}

@@ -1,0 +1,40 @@
+.page {
+  padding: var(--space-lg) clamp(1rem, 3vw, 2.5rem) var(--space-2xl);
+}
+
+.sheet {
+  column-count: 3;
+  column-gap: var(--grid-gap);
+  margin-top: var(--space-lg);
+}
+
+.item {
+  break-inside: avoid;
+  margin-bottom: var(--space-md);
+}
+
+.item img {
+  width: 100%;
+}
+
+.meta {
+  margin-top: 0.5rem;
+  font-size: var(--type-meta);
+  color: var(--muted);
+}
+
+.caption {
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 900px) {
+  .sheet {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 620px) {
+  .sheet {
+    column-count: 1;
+  }
+}

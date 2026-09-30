@@ -1,0 +1,32 @@
+.section {
+  padding: var(--space-xl) clamp(1rem, 3vw, 2.5rem) 0;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+.photo {
+  order: 2;
+}
+
+.copy {
+  order: 1;
+  max-width: 36rem;
+}
+
+.lead {
+  font-size: clamp(1.4rem, 2.2vw, 2rem);
+  line-height: 1.45;
+}
+
+@media (max-width: 860px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
+
+  .photo,
+  .copy {
+    order: 0;
+  }
+}

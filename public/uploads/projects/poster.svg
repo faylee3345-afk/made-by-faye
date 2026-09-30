@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-label="Poster">
+  <rect width="1200" height="1500" fill="#c6452e"/>
+  <rect x="0" y="930" width="1200" height="570" fill="#f4f1ea" opacity="0.06"/>
+  <rect x="96" y="180" width="660" height="720" fill="#f4f1ea" opacity="0.05"/>
+  <circle cx="0" cy="0" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="280" cy="975" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="560" cy="450" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="840" cy="1425" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="1120" cy="900" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="200" cy="375" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="480" cy="1350" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="760" cy="825" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="1040" cy="300" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="120" cy="1275" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="400" cy="750" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="680" cy="225" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="960" cy="1200" r="10" fill="#f4f1ea" opacity="0.04"/><circle cx="40" cy="675" r="11" fill="#f4f1ea" opacity="0.04"/><circle cx="320" cy="150" r="12" fill="#f4f1ea" opacity="0.04"/><circle cx="600" cy="1125" r="8" fill="#f4f1ea" opacity="0.04"/><circle cx="880" cy="600" r="9" fill="#f4f1ea" opacity="0.04"/><circle cx="1160" cy="75" r="10" fill="#f4f1ea" opacity="0.04"/>
+  <rect x="84.00000000000001" y="150" width="10" height="10" fill="#c6452e"/>
+  <text x="84.00000000000001" y="135" fill="#f4f1ea" font-size="42" letter-spacing="6" font-family="Inter, Helvetica, sans-serif">FAYE</text>
+  <text x="84.00000000000001" y="1320" fill="#f4f1ea" font-size="83" font-family="Georgia, serif">Poster</text>
+  <text x="84.00000000000001" y="1395" fill="#c6452e" font-size="33" letter-spacing="4" font-family="Inter, Helvetica, sans-serif">PLACEHOLDER · REPLACE IN CMS</text>
+</svg>
